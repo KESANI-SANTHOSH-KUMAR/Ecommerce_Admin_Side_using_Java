@@ -1,0 +1,151 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+  padding:20px;
+ border: 2px solid white;
+ border-radius: 4px;
+}
+.c5:hover {
+  color: #03030a;
+  background-color: rgb(14, 91, 159);
+  
+}
+.bm{
+  border: 0px;
+ 
+}
+.b7:hover{
+box-shadow: 3px 5px 4px black;
+}
+.b4{
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin:18px;
+  padding: 12px;
+  
+}
+.b0{
+font-size: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 12px;
+}
+.b4:hover{
+
+  box-shadow: 2px 4px 5px blue;
+  
+}
+.edit1{
+  border: 2px solid burlywood;
+  border-radius:15px;
+  padding: 15px;
+  width: 600px;
+  margin-left: 475px;
+  margin-top:175px;
+}
+.edit1:hover{
+  box-shadow: 3px 4px 5px yellow;
+}
+.c1{
+  border: 7px solid rgb(61, 50, 50);
+  border-radius: 10px;
+  height:50px;
+  padding-top:10px;
+  overflow: hidden;
+  margin-top: 0px;
+}
+.c1:hover{
+  box-shadow: 4px 4px 10px rgb(46, 49, 32);
+}
+h2{
+  text-align: center;
+  margin-top: 20px;
+}
+.ADD{
+  margin-top: 150px;
+  padding: 20px;
+  border-radius: 10px;
+  border:2px solid rgb(6, 6, 6);
+}
+.ADD:hover{
+  box-shadow: 4px 5px 5px 6px rgb(101, 114, 80);
+}
+body{
+  background-image: url('./hi.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:700px;
+}
+.c3{
+  display:grid;
+  justify-content: center;
+}
+.c2{
+  border: 2px solid goldenrod;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  display:inline-block;
+   
+}
+.c2:hover{
+  box-shadow: 4px 6px 5px rgb(91, 50, 50);
+}
+input{
+  font-size: 20px;
+  border-radius: 10px;
+}
+textarea{
+  border-radius: 10px;
+}
+.b1{
+  font-size: 20px;
+}
+.b3{
+  display:grid;
+}
+.d3{
+text-align: center;
+padding: 20px;
+display:inline-block;
+
+}
+.d4:hover{
+  box-shadow:2px 5px 4px rgb(20, 20, 20);
+}
+.d4{
+  color:#242424;
+  border: 2px solid rgb(18, 20, 14);
+  border-radius: 15px;
+  float:left;
+  margin-left:20px;
+}
+button{
+  border-radius: 10px;
+}
+.c5{
+  border:3px solid black;
+  border-radius: 10px;
+}
+@media (max-width: 600px) {
+ body{
+    width: 600px; 
+  }
+}
